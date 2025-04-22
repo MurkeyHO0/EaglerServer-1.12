@@ -1,0 +1,24 @@
+# AdminFun's main configuration
+console-logging: true
+god-colour: red
+god-bold-text: false
+spamcast-colour: dark-aqua
+language: english
+max-explosion-size: 50
+fakequit-message: '&e<player> left the game'
+dropparty-items:
+- 276
+- 264
+- 267
+- 266
+- 310
+- 312
+- 311
+- 313
+- 322
+- 314
+- 317
+- 316
+- 315
+- 278
+- 277

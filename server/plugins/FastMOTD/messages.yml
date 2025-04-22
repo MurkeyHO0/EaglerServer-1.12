@@ -1,0 +1,8 @@
+messages:
+  usage: |-
+    &aFastMOTD 1.0.1 by Amargos commands:
+    &e/fastmotd reload &7- &bReloads the plugin!
+
+  reload: "&aYou have reloaded FastMOTD 1.0.1 by Amargos!"
+  unknowncommand: "&cUnknown command. Use '/fastmotd help' to see available commands!"
+  nopermission: "&cThis server is running FastMOTD 1.0.1 by Amargos."

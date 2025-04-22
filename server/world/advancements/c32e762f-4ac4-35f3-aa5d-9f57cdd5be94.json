@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-04-19 18:06:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2025-04-19 18:04:42 +0000",
+      "extreme_hills": "2025-04-19 18:05:21 +0000"
+    },
+    "done": false
+  }
+}

@@ -1,193 +1,527 @@
-[17:43:28] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[17:43:28] [Server thread/INFO]: Loading properties
-[17:43:28] [Server thread/INFO]: Default game type: SURVIVAL
-[17:43:28] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[17:43:28] [Server thread/INFO]: Debug logging is disabled
-[17:43:28] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[17:43:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:37:07] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:37:07] [Server thread/INFO]: Loading properties
+[16:37:07] [Server thread/INFO]: Default game type: SURVIVAL
+[16:37:08] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:37:08] [Server thread/INFO]: Debug logging is disabled
+[16:37:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:37:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:37:08] [Server thread/INFO]: Generating keypair
+[16:37:09] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:37:09] [Server thread/INFO]: Using default channel type
+[16:37:13] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
+[16:37:13] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:37:13] [Server thread/ERROR]: Could not load 'plugins/Factions.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: mcore
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:37:13] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[16:37:13] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[16:37:13] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[16:37:13] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[16:37:13] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.0.7
+[16:37:13] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[16:37:13] [Server thread/INFO]: [FastMOTD] Loading FastMOTD v1.0.1
+[16:37:13] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[16:37:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:37:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:37:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:37:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:37:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:37:13] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:37:13] [Server thread/INFO]: Preparing level "world"
+[16:37:13] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:37:13] [Server thread/INFO]: Mob Spawn Range: 4
+[16:37:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:37:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:37:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:37:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:37:13] [Server thread/INFO]: Random Lighting Updates: false
+[16:37:13] [Server thread/INFO]: Structure Info Saving: true
+[16:37:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:37:13] [Server thread/INFO]: Max TNT Explosions: 100
+[16:37:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:37:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:37:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:37:13] [Server thread/INFO]: View Distance: 4
+[16:37:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:37:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:37:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:37:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:37:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:37:15] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:37:15] [Server thread/INFO]: Mob Spawn Range: 4
+[16:37:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:37:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:37:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:37:15] [Server thread/INFO]: Random Lighting Updates: false
+[16:37:15] [Server thread/INFO]: Structure Info Saving: true
+[16:37:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:37:15] [Server thread/INFO]: Max TNT Explosions: 100
+[16:37:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:37:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:37:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:37:15] [Server thread/INFO]: View Distance: 4
+[16:37:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:37:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:37:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:37:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:37:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:37:15] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:37:15] [Server thread/INFO]: Mob Spawn Range: 4
+[16:37:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:37:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:37:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:37:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:37:15] [Server thread/INFO]: Random Lighting Updates: false
+[16:37:15] [Server thread/INFO]: Structure Info Saving: true
+[16:37:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:37:15] [Server thread/INFO]: Max TNT Explosions: 100
+[16:37:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:37:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:37:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:37:15] [Server thread/INFO]: View Distance: 4
+[16:37:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:37:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:37:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:37:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:37:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:37:15] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2944317931991376443)
+[16:37:17] [Server thread/INFO]: Preparing spawn area: 0%
+[16:37:18] [User Authenticator #1/INFO]: UUID of player Timothy_speed is 3cca24e3-025b-359a-8f88-593f8d809497
+[16:37:18] [Server thread/INFO]: Preparing spawn area: 4%
+[16:37:18] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2944317931991376443)
+[16:37:19] [Server thread/INFO]: Preparing spawn area: 1%
+[16:37:20] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2944317931991376443)
+[16:37:21] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[16:37:21] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[16:37:21] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 6.4
+[16:37:21] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[16:37:21] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[16:37:21] [Server thread/INFO]: Check 1 passed
+[16:37:21] [User Authenticator #1/INFO]: UUID of player Nightmare___ is 091e2f61-1c68-3ce0-8163-0a9c128b38c0
+[16:37:23] [Server thread/INFO]: Check 3 passed
+[16:37:23] [Server thread/INFO]: --------------------------------------------
+[16:37:23] [Server thread/INFO]: --------------------------------------------
+[16:37:23] [Server thread/INFO]: [EaglerPluginInstaller] EaglerPluginInstaller V1.1.5 is now Enabled! :D
+[16:37:23] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin
+[16:37:23] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console
+[16:37:23] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main
+[16:37:23] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add
+[16:37:23] [Server thread/INFO]: --------------------------------------------
+[16:37:23] [Server thread/INFO]: --------------------------------------------
+[16:37:23] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[16:37:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[16:37:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:37:24] [Server thread/WARN]: [WorldEdit] 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and biome-related functions.
+**
+** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
+**********************************************
 
-[17:43:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:43:28] [Server thread/INFO]: Data value allowed items: 
-[17:43:28] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
-
-[17:43:28] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-
-[17:43:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
-
-[17:43:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-[17:43:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-
-[17:43:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
-
-[17:43:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
-
-[17:43:28] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
-
-[17:43:28] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
-
-[17:43:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[17:43:28] [Server thread/INFO]: Generating keypair
-[17:43:28] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[17:43:28] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[17:43:28] [Server thread/INFO]: Using default channel type
-[17:43:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:43:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:43:29] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[17:43:29] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[17:43:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:43:29] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:43:29] [Server thread/INFO]: Preparing level "world"
-[17:43:29] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:43:29] [Server thread/INFO]: Mob Spawn Range: 4
-[17:43:29] [Server thread/INFO]: Anti X-Ray: true
-[17:43:29] [Server thread/INFO]: 	Engine Mode: 1
-[17:43:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:43:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:43:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:43:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:43:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:43:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:43:29] [Server thread/INFO]: Random Lighting Updates: false
-[17:43:29] [Server thread/INFO]: Structure Info Saving: true
-[17:43:29] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:43:29] [Server thread/INFO]: Max Entity Collisions: 8
-[17:43:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:43:29] [Server thread/INFO]: Max TNT Explosions: 100
-[17:43:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:43:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:43:29] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:43:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:43:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:43:29] [Server thread/INFO]: View Distance: 4
-[17:43:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:43:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:43:29] [Server thread/INFO]: Clear tick list: false
-[17:43:29] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:43:29] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:43:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:43:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:43:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:43:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:43:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:43:29] [Server thread/INFO]: Water over lava flow speed: 5
-[17:43:29] [Server thread/INFO]: Fix TNT cannons: false
-[17:43:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:43:29] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:43:29] [Server thread/INFO]: World async lighting: false
-[17:43:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:43:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:43:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:43:29] [Server thread/INFO]: Mob Spawn Range: 4
-[17:43:29] [Server thread/INFO]: Anti X-Ray: true
-[17:43:29] [Server thread/INFO]: 	Engine Mode: 1
-[17:43:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:43:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:43:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:43:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:43:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:43:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:43:29] [Server thread/INFO]: Random Lighting Updates: false
-[17:43:29] [Server thread/INFO]: Structure Info Saving: true
-[17:43:29] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:43:29] [Server thread/INFO]: Max Entity Collisions: 8
-[17:43:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:43:29] [Server thread/INFO]: Max TNT Explosions: 100
-[17:43:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:43:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:43:29] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:43:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:43:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:43:29] [Server thread/INFO]: View Distance: 4
-[17:43:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:43:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:43:29] [Server thread/INFO]: Clear tick list: false
-[17:43:29] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:43:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:43:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:43:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:43:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:43:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:43:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:43:29] [Server thread/INFO]: Water over lava flow speed: 5
-[17:43:29] [Server thread/INFO]: Fix TNT cannons: false
-[17:43:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:43:29] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:43:29] [Server thread/INFO]: World async lighting: false
-[17:43:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:43:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:43:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:43:29] [Server thread/INFO]: Mob Spawn Range: 4
-[17:43:29] [Server thread/INFO]: Anti X-Ray: true
-[17:43:29] [Server thread/INFO]: 	Engine Mode: 1
-[17:43:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:43:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:43:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:43:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:43:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:43:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:43:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:43:29] [Server thread/INFO]: Random Lighting Updates: false
-[17:43:29] [Server thread/INFO]: Structure Info Saving: true
-[17:43:29] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:43:29] [Server thread/INFO]: Max Entity Collisions: 8
-[17:43:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:43:29] [Server thread/INFO]: Max TNT Explosions: 100
-[17:43:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:43:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:43:29] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:43:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:43:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:43:29] [Server thread/INFO]: View Distance: 4
-[17:43:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:43:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:43:29] [Server thread/INFO]: Clear tick list: false
-[17:43:29] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:43:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:43:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:43:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:43:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:43:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:43:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:43:29] [Server thread/INFO]: Water over lava flow speed: 5
-[17:43:29] [Server thread/INFO]: Fix TNT cannons: false
-[17:43:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:43:29] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:43:29] [Server thread/INFO]: World async lighting: false
-[17:43:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:43:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:43:29] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4836461686104293424)
-[17:43:30] [Server thread/INFO]: Preparing spawn area: 53%
-[17:43:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4836461686104293424)
-[17:43:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4836461686104293424)
-[17:43:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:43:31] [Server thread/INFO]: Done (2.854s)! For help, type "help" or "?"
-[17:43:31] [Server thread/INFO]: Timings Reset
-[17:43:34] [Server thread/INFO]: Plugins (0): [m
-
-[17:43:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-
+[16:37:24] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.0.7
+[16:37:24] [Server thread/INFO]: AdminFun v2.0.7 is now enabled.
+[16:37:24] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[16:37:24] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: [EaglerPluginInstaller] PluginInstaller V1.1.5 is now Disabled! D:
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[16:37:24] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader EaglerPluginInstaller v1.1.4
+[16:37:24] [Server thread/INFO]: Check 1 passed
+[16:37:24] [Server thread/INFO]: Check 3 passed
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: [EaglerPluginInstaller] EaglerPluginInstaller V1.1.5 is now Enabled! :D
+[16:37:24] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin
+[16:37:24] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console
+[16:37:24] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main
+[16:37:24] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: [EaglerPluginUpdater] EaglerPluginUpdater V1.1.2 is now Enabled! :D
+[16:37:24] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: --------------------------------------------
+[16:37:24] [Server thread/INFO]: [FastMOTD] Enabling FastMOTD v1.0.1
+[16:37:25] [Server thread/INFO]: --------------------------------
+[16:37:25] [Server thread/INFO]: FastMOTD It was successfully enabled! (version: 1.0.1)
+[16:37:25] [Server thread/INFO]: Thanks for using my plugin- Mode#1000
+[16:37:25] [Server thread/INFO]: --------------------------------
+[16:37:25] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:37:25] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:37:25] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:37:25] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:37:25] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:37:26] [Server thread/INFO]: Done (12.210s)! For help, type "help" or "?"
+[16:37:26] [Server thread/INFO]: Timings Reset
+[16:37:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@1c295171[id=3cca24e3-025b-359a-8f88-593f8d809497,name=Timothy_speed,properties={},legacy=false] (/127.0.0.1:55824) lost connection: Disconnected
+[16:37:26] [Craft Scheduler Thread - 3/INFO]: [SimpleTpa] There is a new update available.
+[16:37:26] [Craft Scheduler Thread - 3/INFO]: [SimpleTpa] There is a new update available:
+[16:37:26] [Craft Scheduler Thread - 3/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
+[16:37:26] [Server thread/INFO]: Nightmare___[/127.0.0.1:50522] logged in with entity id 43 at ([world_the_end]1206.2417085250227, 64.0, -1649.524176156058)
+[16:37:26] [User Authenticator #1/INFO]: UUID of player Timothy_speed is 3cca24e3-025b-359a-8f88-593f8d809497
+[16:37:27] [Server thread/INFO]: Timothy_speed[/127.0.0.1:50530] logged in with entity id 49 at ([world]24920.69999998808, 74.0, 4621.824999988079)
+[16:38:49] [Server thread/INFO]: Timothy_speed lost connection: Disconnected
+[16:38:49] [Server thread/INFO]: Timothy_speed left the game
+[16:38:54] [User Authenticator #2/INFO]: UUID of player MurkeyH2O is 403316ac-7dcd-3710-b323-4c2d3a06515b
+[16:38:55] [Server thread/INFO]: MurkeyH2O[/127.0.0.1:55878] logged in with entity id 180 at ([world_the_end]2564.699999988079, 65.56434702983728, -1394.699999988079)
+[16:39:05] [User Authenticator #2/INFO]: UUID of player Timothy_speed is 3cca24e3-025b-359a-8f88-593f8d809497
+[16:39:06] [Server thread/INFO]: Timothy_speed[/127.0.0.1:34838] logged in with entity id 225 at ([world]24920.69999998808, 74.0, 4621.824999988079)
+[16:39:18] [User Authenticator #2/INFO]: UUID of player ImmortalityDemon is 13afe0dd-c815-3124-af0e-58dddabde28f
+[16:39:18] [Server thread/INFO]: ImmortalityDemon[/127.0.0.1:44556] logged in with entity id 292 at ([world]-123.70409410827195, 73.0, 252.97214775514942)
+[16:39:29] [Server thread/INFO]: Nightmare___ issued server command: /tpa ImmortalityDemon
+[16:39:32] [Server thread/INFO]: ImmortalityDemon issued server command: /tpaccept
+[16:40:14] [Server thread/INFO]: Nightmare___ issued server command: /homes
+[16:40:19] [Server thread/INFO]: Nightmare___ issued server command: /home jo
+[16:40:25] [Server thread/INFO]: Nightmare___ issued server command: /home jo
+[16:41:34] [Server thread/INFO]: ImmortalityDemon was shot by Skeleton
+[16:41:56] [Server thread/INFO]: ImmortalityDemon lost connection: Disconnected
+[16:41:56] [Server thread/INFO]: ImmortalityDemon left the game
+[16:42:24] [Server thread/INFO]: Timothy_speed lost connection: Disconnected
+[16:42:24] [Server thread/INFO]: Timothy_speed left the game
+[16:45:16] [Server thread/INFO]: MurkeyH2O issued server command: /gamemode s
+[16:45:16] [Server thread/INFO]: [MurkeyH2O: Set own game mode to Survival Mode]
+[16:46:59] [User Authenticator #3/INFO]: UUID of player Timothy_speed is 3cca24e3-025b-359a-8f88-593f8d809497
+[16:46:59] [Server thread/INFO]: Timothy_speed[/127.0.0.1:56268] logged in with entity id 1385 at ([world]24920.69999998808, 74.0, 4621.824999988079)
+[16:47:34] [Async Chat Thread - #0/INFO]: <MurkeyH2O> i made amusement park
+[16:47:40] [Async Chat Thread - #0/INFO]: <MurkeyH2O> called the void
+[16:48:06] [Server thread/INFO]: MurkeyH2O issued server command: /sethome park
+[16:48:13] [Server thread/INFO]: MurkeyH2O issued server command: /home endbase
+[16:48:29] [Server thread/INFO]: MurkeyH2O issued server command: /home ender
+[16:48:42] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[16:48:42] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[16:50:02] [Server thread/INFO]: MurkeyH2O issued server command: /home spawn
+[16:50:12] [Server thread/INFO]: MurkeyH2O issued server command: /home common
+[16:50:20] [Server thread/INFO]: MurkeyH2O issued server command: /home endbase
+[16:50:23] [Async Chat Thread - #1/INFO]: <MurkeyH2O> night tp
+[16:51:11] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:fireworks 60
+[16:51:12] [Server thread/INFO]: [MurkeyH2O: Given [Firework Rocket] * 60 to MurkeyH2O]
+[16:51:37] [Server thread/INFO]: Nightmare___ issued server command: /home iliya12
+[16:51:38] [Server thread/INFO]: Nightmare___ issued server command: /home iliya
+[16:52:57] [Server thread/INFO]: Nightmare___ issued server command: /back
+[16:53:31] [Server thread/INFO]: MurkeyH2O issued server command: /tpa Nightmare___
+[16:53:34] [Server thread/INFO]: Nightmare___ issued server command: /tpaccept
+[16:54:34] [Server thread/INFO]: Nightmare___ issued server command: /msg MurkeyH2O can i have a todom
+[16:54:44] [Server thread/INFO]: MurkeyH2O issued server command: /tell Nightmare___ ii dont trust u enough yet
+[16:54:52] [Server thread/INFO]: Nightmare___ issued server command: /msg MurkeyH2O bruh
+[16:55:24] [Server thread/INFO]: Nightmare___ issued server command: /homes
+[16:55:26] [Server thread/INFO]: Nightmare___ issued server command: /home
+[16:55:31] [Server thread/INFO]: Nightmare___ issued server command: /home jo
+[16:55:57] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:red_wool 64
+[16:55:57] [Server thread/INFO]: [MurkeyH2O: There is no such item with name minecraft:red_wool]
+[16:56:13] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:wool 64
+[16:56:13] [Server thread/INFO]: [MurkeyH2O: Given [White Wool] * 64 to MurkeyH2O]
+[16:56:24] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:red_flower 64
+[16:56:24] [Server thread/INFO]: [MurkeyH2O: Given [Poppy] * 64 to MurkeyH2O]
+[17:01:04] [Server thread/INFO]: Nightmare___ issued server command: /del home jo
+[17:01:09] [Server thread/INFO]: Nightmare___ issued server command: /delhome jo
+[17:01:12] [Server thread/INFO]: Nightmare___ issued server command: /sethome jo
+[17:01:17] [Server thread/INFO]: Nightmare___ issued server command: /home yo
+[17:01:57] [Server thread/INFO]: MurkeyH2O issued server command: /gamemode c
+[17:01:57] [Server thread/INFO]: [MurkeyH2O: Set own game mode to Creative Mode]
+[17:02:31] [Server thread/INFO]: Nightmare___ lost connection: Disconnected
+[17:02:31] [Server thread/INFO]: Nightmare___ left the game
+[17:02:43] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:46] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:47] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:47] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:48] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:49] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:49] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:51] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:52] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:53] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:54] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworkds
+[17:02:57] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:02:58] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:02:59] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:03:00] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:03:02] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:03:06] [Server thread/INFO]: MurkeyH2O issued server command: /give Timothy_speed minecraft:fireworks 64
+[17:03:06] [Server thread/INFO]: [MurkeyH2O: Given [Firework Rocket] * 64 to Timothy_speed]
+[17:04:48] [Server thread/INFO]: Timothy_speed issued server command: /tpa night
+[17:04:53] [Server thread/INFO]: Timothy_speed issued server command: /tpa MurkeyH2O
+[17:05:08] [Server thread/INFO]: MurkeyH2O issued server command: /tpdeny
+[17:07:50] [User Authenticator #4/INFO]: UUID of player ImmortalityDemon is 13afe0dd-c815-3124-af0e-58dddabde28f
+[17:07:50] [Server thread/INFO]: ImmortalityDemon[/127.0.0.1:48274] logged in with entity id 3364 at ([world]-139.51538859198217, 74.0, 224.37914585434638)
+[17:08:00] [Server thread/INFO]: ImmortalityDemon lost connection: Disconnected
+[17:08:00] [Server thread/INFO]: ImmortalityDemon left the game
+[17:08:14] [Server thread/INFO]: Timothy_speed issued server command: /tpa night
+[17:08:17] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:17] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:18] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:18] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:19] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:19] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:20] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:20] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:21] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:21] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O do /give fireworks
+[17:08:23] [Server thread/INFO]: MurkeyH2O issued server command: /give Timothy_speed minecraft:fireworks 64
+[17:08:23] [Server thread/INFO]: [MurkeyH2O: Given [Firework Rocket] * 64 to Timothy_speed]
+[17:08:23] [Server thread/INFO]: MurkeyH2O issued server command: /give Timothy_speed minecraft:fireworks 64
+[17:08:23] [Server thread/INFO]: [MurkeyH2O: Given [Firework Rocket] * 64 to Timothy_speed]
+[17:14:56] [User Authenticator #5/INFO]: UUID of player Nightmare___ is 091e2f61-1c68-3ce0-8163-0a9c128b38c0
+[17:14:56] [Server thread/INFO]: Nightmare___[/127.0.0.1:40218] logged in with entity id 3904 at ([world_the_end]1206.9038647516707, 60.0, -1653.5166068122737)
+[17:15:04] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:23] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:24] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:25] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:26] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:27] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:30] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv\
+[17:15:32] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:32] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:33] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:34] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:34] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:35] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:35] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:37] [Server thread/INFO]: MurkeyH2O issued server command: /gamemode s
+[17:15:37] [Server thread/INFO]: [MurkeyH2O: Set own game mode to Survival Mode]
+[17:15:38] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:38] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:39] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:39] [Server thread/INFO]: Nightmare___ issued server command: /homes
+[17:15:40] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:40] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:41] [Server thread/INFO]: Nightmare___ issued server command: /home
+[17:15:41] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:41] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:41] [Server thread/INFO]: MurkeyH2O issued server command: /gamemode s Timothy_speed
+[17:15:41] [Server thread/INFO]: [MurkeyH2O: Set Timothy_speed's game mode to Survival Mode]
+[17:15:42] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:42] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:43] [Server thread/INFO]: Nightmare___ issued server command: /home jo
+[17:15:43] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:44] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:44] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:45] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:45] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:47] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv\
+[17:15:49] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:49] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:50] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:51] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:51] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:53] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:54] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:54] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:shield 1
+[17:15:54] [Server thread/INFO]: [MurkeyH2O: Given [Shield] * 1 to MurkeyH2O]
+[17:15:55] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:56] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:57] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:15:58] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:00] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:01] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:02] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:03] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:06] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:07] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:08] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:09] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:09] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:11] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O put me in surv
+[17:16:33] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:shield 1
+[17:16:33] [Server thread/INFO]: [MurkeyH2O: Given [Shield] * 1 to MurkeyH2O]
+[17:16:33] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:shield 1
+[17:16:33] [Server thread/INFO]: [MurkeyH2O: Given [Shield] * 1 to MurkeyH2O]
+[17:16:42] [Server thread/INFO]: Timothy_speed lost connection: Timed out
+[17:16:42] [Server thread/INFO]: Timothy_speed left the game
+[17:16:47] [Server thread/INFO]: Nightmare___ issued server command: /home yo
+[17:17:29] [Server thread/INFO]: MurkeyH2O issued server command: /gamemode c
+[17:17:29] [Server thread/INFO]: [MurkeyH2O: Set own game mode to Creative Mode]
+[17:17:30] [User Authenticator #6/INFO]: UUID of player Timothy_speed is 3cca24e3-025b-359a-8f88-593f8d809497
+[17:17:30] [Server thread/INFO]: Timothy_speed[/127.0.0.1:41428] logged in with entity id 4048 at ([world]24927.19999998808, 83.5, 4604.906462978132)
+[17:17:34] [Server thread/INFO]: Timothy_speed issued server command: /tpa Nightmare___
+[17:17:35] [Server thread/INFO]: MurkeyH2O issued server command: /gamemode s
+[17:17:35] [Server thread/INFO]: [MurkeyH2O: Set own game mode to Survival Mode]
+[17:19:08] [Server thread/INFO]: Nightmare___ issued server command: /home jo
+[17:19:48] [Server thread/INFO]: Nightmare___ issued server command: /home yo
+[17:21:01] [Server thread/INFO]: Timothy_speed issued server command: /home base
+[17:21:41] [Server thread/INFO]: MurkeyH2O issued server command: /home park
+[17:21:47] [Server thread/INFO]: Timothy_speed issued server command: /tpa Mur
+[17:21:49] [Server thread/INFO]: MurkeyH2O issued server command: /tpaccept
+[17:22:32] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O can u /give me 5 dims
+[17:22:43] [Server thread/INFO]: MurkeyH2O issued server command: /give Timothy_speed minecraft:diamond 5
+[17:22:43] [Server thread/INFO]: [MurkeyH2O: Given [Diamond] * 5 to Timothy_speed]
+[17:23:13] [Server thread/INFO]: Nightmare___ issued server command: /tpa MurkeyH2O
+[17:23:16] [Server thread/INFO]: MurkeyH2O issued server command: /tpaccept
+[17:24:22] [Async Chat Thread - #2/INFO]: <MurkeyH2O> stop
+[17:24:24] [Server thread/WARN]: Nightmare___ moved wrongly!
+[17:24:28] [Async Chat Thread - #2/INFO]: <MurkeyH2O> or kick from team
+[17:24:54] [Async Chat Thread - #2/INFO]: <MurkeyH2O> the skull is wearing a diamond crown
+[17:25:07] [Server thread/INFO]: MurkeyH2O issued server command: /adminfun invsee Timothy_speed
+[17:25:07] [Server thread/INFO]: [AdminFun] Player MurkeyH2O issued the command: adminfun invsee
+[17:25:29] [Server thread/INFO]: MurkeyH2O issued server command: /adminfun invsee Timothy_speed
+[17:25:29] [Server thread/INFO]: [AdminFun] Player MurkeyH2O issued the command: adminfun invsee
+[17:25:38] [Server thread/INFO]: MurkeyH2O issued server command: /adminfun invsee Timothy_speed
+[17:25:38] [Server thread/INFO]: [AdminFun] Player MurkeyH2O issued the command: adminfun invsee
+[17:25:48] [Server thread/WARN]: Nightmare___ moved wrongly!
+[17:25:53] [Server thread/WARN]: Nightmare___ moved wrongly!
+[17:25:57] [Server thread/WARN]: Nightmare___ moved wrongly!
+[17:26:55] [Server thread/WARN]: Nightmare___ moved wrongly!
+[17:27:09] [Server thread/INFO]: Nightmare___ issued server command: /tpa MurkeyH2O
+[17:27:15] [Server thread/INFO]: MurkeyH2O issued server command: /tpaccept
+[17:27:23] [Server thread/INFO]: Nightmare___ issued server command: /tpa MurkeyH2O
+[17:27:30] [Server thread/INFO]: MurkeyH2O issued server command: /tpaccept
+[17:27:37] [Server thread/INFO]: Nightmare___ issued server command: /tpa MurkeyH2O
+[17:27:40] [Server thread/INFO]: MurkeyH2O issued server command: /tpaccept
+[17:28:22] [Server thread/INFO]: Nightmare___ issued server command: /tpa Timothy_speed
+[17:28:52] [Server thread/INFO]: MurkeyH2O issued server command: /give Timothy_speed minecraft:boat 1
+[17:28:52] [Server thread/INFO]: [MurkeyH2O: Given [Oak Boat] * 1 to Timothy_speed]
+[17:30:31] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:30:31] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:30:32] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:30:32] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:33:53] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:34:27] [Server thread/WARN]: Nightmare___ moved wrongly!
+[17:34:39] [Server thread/WARN]: Nightmare___ moved wrongly!
+[17:35:35] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:diamond 5
+[17:35:35] [Server thread/INFO]: [MurkeyH2O: Given [Diamond] * 5 to MurkeyH2O]
+[17:35:45] [Server thread/WARN]: Nightmare___ moved too quickly! -6.467103893750391,-8.0,-2.11630822032771
+[17:35:48] [Server thread/INFO]: Nightmare___ issued server command: /tpa MurkeyH2O
+[17:35:51] [Server thread/INFO]: MurkeyH2O issued server command: /tpaccept
+[17:38:42] [Server thread/INFO]: Timothy_speed lost connection: Disconnected
+[17:38:42] [Server thread/INFO]: Timothy_speed left the game
+[17:38:49] [Server thread/INFO]: Nightmare___ issued server command: /tpa MurkeyH2O
+[17:39:05] [User Authenticator #7/INFO]: UUID of player Timothy_speed is 3cca24e3-025b-359a-8f88-593f8d809497
+[17:39:05] [Server thread/INFO]: Timothy_speed[/127.0.0.1:56002] logged in with entity id 5321 at ([world_the_end]2564.3125, 64.55000001192093, -1401.3125)
+[17:40:07] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:40:07] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:40:44] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:40:44] [Server thread/WARN]: Boat (vehicle of Timothy_speed) moved wrongly!
+[17:41:08] [Server thread/INFO]: MurkeyH2O issued server command: /tp Nightmare___ MurkeyH2O
+[17:41:08] [Server thread/INFO]: [MurkeyH2O: Teleported Nightmare___ to MurkeyH2O]
+[17:41:18] [Server thread/INFO]: Nightmare___ lost connection: Disconnected
+[17:41:18] [Server thread/INFO]: Nightmare___ left the game
+[17:45:03] [User Authenticator #8/INFO]: UUID of player ImmortalityDemon is 13afe0dd-c815-3124-af0e-58dddabde28f
+[17:45:03] [Server thread/INFO]: ImmortalityDemon[/127.0.0.1:40970] logged in with entity id 6053 at ([world]-139.51538859198217, 74.0, 224.37914585434638)
+[17:45:03] [Server thread/INFO]: ImmortalityDemon lost connection: Disconnected
+[17:45:03] [Server thread/INFO]: ImmortalityDemon left the game
+[17:46:41] [User Authenticator #9/INFO]: UUID of player ImmortalityDemon is 13afe0dd-c815-3124-af0e-58dddabde28f
+[17:46:41] [Server thread/INFO]: ImmortalityDemon[/127.0.0.1:38214] logged in with entity id 6173 at ([world]-139.51538859198217, 74.0, 224.37914585434638)
+[17:47:24] [Server thread/INFO]: ImmortalityDemon lost connection: Disconnected
+[17:47:24] [Server thread/INFO]: ImmortalityDemon left the game
+[17:49:29] [User Authenticator #10/INFO]: UUID of player Nightmare___ is 091e2f61-1c68-3ce0-8163-0a9c128b38c0
+[17:49:29] [Server thread/INFO]: Nightmare___[/127.0.0.1:36814] logged in with entity id 6619 at ([world_the_end]2527.9735384517667, 65.0, -1338.496165361927)
+[17:49:37] [User Authenticator #10/INFO]: UUID of player Mugmm_ is a3efa67d-3409-3e74-9930-aa146923f953
+[17:49:37] [Server thread/INFO]: Mugmm_[/127.0.0.1:57682] logged in with entity id 6655 at ([world]-24.182347560074653, 66.0, 261.3362951754889)
+[17:50:04] [Server thread/INFO]: Mugmm_ issued server command: /tpa Nightmare___
+[17:50:08] [Server thread/INFO]: Nightmare___ issued server command: /tpaccept
+[17:50:13] [Server thread/INFO]: Mugmm_ has made the advancement [The End?]
+[17:50:16] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:end_bricks 64
+[17:50:16] [Server thread/INFO]: [MurkeyH2O: Given [End Stone Bricks] * 64 to MurkeyH2O]
+[17:50:26] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:end_bricks 64
+[17:50:26] [Server thread/INFO]: [MurkeyH2O: Given [End Stone Bricks] * 64 to MurkeyH2O]
+[17:50:38] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:end_stone 64
+[17:50:38] [Server thread/INFO]: [MurkeyH2O: Given [End Stone] * 64 to MurkeyH2O]
+[17:50:38] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:end_stone 64
+[17:50:38] [Server thread/INFO]: [MurkeyH2O: Given [End Stone] * 64 to MurkeyH2O]
+[17:50:41] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:42] [Server thread/INFO]: Nightmare___ issued server command: /homes
+[17:50:42] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:43] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:43] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:44] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:45] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:46] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:46] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:47] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:48] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:48] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:49] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:50] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:50:54] [Server thread/INFO]: Mugmm_ lost connection: Disconnected
+[17:50:54] [Server thread/INFO]: Mugmm_ left the game
+[17:50:56] [Server thread/INFO]: Nightmare___ issued server command: /home ko
+[17:51:10] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:51:10] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[17:51:14] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:51:14] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:51:29] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:51:29] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets
+[17:51:30] [Server thread/INFO]: Timothy_speed issued server command: /msg MurkeyH2O cAN i get some rockets\
+[17:51:39] [Server thread/INFO]: MurkeyH2O issued server command: /give Timothy_speed minecraft:fireworks 64
+[17:51:39] [Server thread/INFO]: [MurkeyH2O: Given [Firework Rocket] * 64 to Timothy_speed]
+[17:51:52] [Server thread/INFO]: Nightmare___ issued server command: /home yo
+[17:52:07] [Server thread/INFO]: MurkeyH2O issued server command: /give Timothy_speed minecraft:fireworks 64
+[17:52:07] [Server thread/INFO]: [MurkeyH2O: Given [Firework Rocket] * 64 to Timothy_speed]
+[17:52:09] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:52:09] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[17:53:16] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:53:16] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[17:53:43] [Server thread/INFO]: Timothy_speed issued server command: /tpa Mur
+[17:53:47] [Server thread/INFO]: MurkeyH2O issued server command: /tpaccept
+[17:53:55] [Server thread/INFO]: Timothy_speed issued server command: /tpa Mur
+[17:54:13] [Server thread/INFO]: MurkeyH2O issued server command: /tpaccept
+[17:54:15] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:54:15] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[17:54:56] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:54:56] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[17:56:05] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:56:05] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[17:56:23] [Server thread/INFO]: Nightmare___ lost connection: Disconnected
+[17:56:23] [Server thread/INFO]: Nightmare___ left the game
+[17:57:08] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:57:08] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[17:57:52] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:57:52] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[17:58:47] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[17:58:47] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[18:00:14] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[18:00:14] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[18:02:25] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[18:02:25] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[18:02:26] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[18:02:26] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[18:02:36] [Server thread/INFO]: Timothy_speed lost connection: Disconnected
+[18:02:36] [Server thread/INFO]: Timothy_speed left the game
+[18:03:02] [User Authenticator #11/INFO]: UUID of player Timothy_speed is 3cca24e3-025b-359a-8f88-593f8d809497
+[18:03:02] [Server thread/INFO]: Timothy_speed[/127.0.0.1:58290] logged in with entity id 7278 at ([world_the_end]2535.242086400966, 65.0, -1382.7980704103427)
+[18:03:24] [Server thread/INFO]: MurkeyH2O issued server command: /give MurkeyH2O minecraft:light_blue_glazed_terracotta 64
+[18:03:24] [Server thread/INFO]: [MurkeyH2O: Given [Light Blue Glazed Terracotta] * 64 to MurkeyH2O]
+[18:03:58] [Server thread/INFO]: Timothy_speed lost connection: Disconnected
+[18:03:58] [Server thread/INFO]: Timothy_speed left the game
+[18:04:01] [Server thread/INFO]: MurkeyH2O lost connection: Disconnected
+[18:04:01] [Server thread/INFO]: MurkeyH2O left the game
